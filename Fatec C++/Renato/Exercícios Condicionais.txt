@@ -1,0 +1,31 @@
+Exercícios de Comandos Condicionais
+
+Faça um programa em linguagem C que:
+
+1) Leia dois números e imprima o maior.
+
+2) Leia um número e:
+	- se for positivo, calcule e mostre a raiz quadrada;
+	- se for negativo, eleve ao quadrado e mostre na tela.
+
+3) Leia um número inteiro e mostre se é par ou impar.
+
+4) Leia dois números, mostre o maior e a diferença entre eles.
+
+5) Leia a altura e o sexo de uma pessoa, calcule e mostre o peso ideal. Sendo:
+	- homens   -> ( 72,7 * h) - 58
+	- mulheres -> ( 62,1 * h) - 44,7
+
+6) Usando o comando switch, leia um número inteiro de 1 a 7 e mostre o dia da semana correspondente, sendo 1 = domingo.
+
+7) Usando o comando switch, leia um número inteiro de 1 a 12 e mostre o mês correspondende, sendo 1 = janeiro.
+
+8) Leia um número inteiro e mostre se é divisível por 3 ou por 5. Sendo que um número é divisível por outro quando o resto da divisão é zero.
+
+9) Um número é divisível por 6 quando é divisível por 2 e por 3. Leia um número inteiro e mostre se é divisível por 6.
+
+10) Leia três medidas inteiras, verifique se podem formar um triângulo. Se puder, mostre qual triângulo forma. Sendo:
+	- o comprimento de cada lado do triângulo deve ser menor que a soma dos outros dois lados;
+	- um triângulo equilátero tem três lados iguais;
+	- um triângulo isósceles tem dois lados iguais;
+	- um triângulo escaleno tem três lados diferentes.
