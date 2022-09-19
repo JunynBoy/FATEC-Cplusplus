@@ -1,0 +1,41 @@
+DISCIPLINA DE LINGUAGEM DE PROGRAMAÇÃO – PROF. RENATO GAMBARATO
+EXERCÍCIOS DE COMANDOS DE REPETIÇÃO – FOR e WHILE
+
+1. Faça um programa que determine o mostre os cinco primeiros
+múltiplos de 3, considerando números maiores que 0.
+
+
+2. Escreva um programa que escreva na tela, de 1 até 100, de 1 em 1,
+2 vezes. A primeira vez deve usar a estrutura de repetição FOR e a
+segunda WHILE.
+ 
+
+3. Faça um programa utilizando o comando WHILE que mostra uma
+contagem regressiva na tela, iniciando em 10 e terminando em 0.
+Mostrar uma mensagem “FIM!” após a contagem.
+ 
+
+4. Escreva um programa que declare um inteiro, inicialize-o com 0, e
+incremente-o de 1000 em 1000, imprimindo seu valor na tela, até
+que seu valor seja 100.000 (cem mil).
+ 
+
+5. Faça um programa que peça ao usuário para digitar 10 valores e
+some-os.
+ 
+
+6. Faça um programa que leia 10 inteiros e imprima sua média.
+ 
+
+7. Faça um programa que leia um número inteiro N e depois imprima
+os N primeiros números naturais ímpares.
+ 
+
+8. Faça um programa que leia um número inteiro positivo N e imprima
+todos os números naturais de 0 até N em ordem crescente.
+ 
+
+9. Faça um programa que leia um número inteiro positivo N e imprima
+todos os números naturais de 0 até N em ordem decrescente.
+ 
+
