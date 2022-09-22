@@ -1,5 +1,7 @@
-DISCIPLINA DE LINGUAGEM DE PROGRAMAÇÃO – PROF. RENATO GAMBARATO
-EXERCÍCIOS DE COMANDOS DE REPETIÇÃO – FOR e WHILE
+==========================================================================================
+	DISCIPLINA DE LINGUAGEM DE PROGRAMAÇÃO – PROF. RENATO GAMBARATO
+	EXERCÍCIOS DE COMANDOS DE REPETIÇÃO – FOR e WHILE
+==========================================================================================
 
 1. Faça um programa que determine o mostre os cinco primeiros
 múltiplos de 3, considerando números maiores que 0.
@@ -38,4 +40,36 @@ todos os números naturais de 0 até N em ordem crescente.
 9. Faça um programa que leia um número inteiro positivo N e imprima
 todos os números naturais de 0 até N em ordem decrescente.
  
+
+================= DESAFIOS =============================================================== 
+
+
+10.- Faça dois programas, um com for e um com while utilizando o RAND() que faça
+um jogo de MEGA-SENA.
+
+dados: 	-O jogo terá 6 números
+	-Os números vão de 01 a 60, mas se sair 00 não tem problema
+
+obs:Pode aparecer números repetidos!
+
+
+
+11.- Faça dois programas (um com FOR e o outro com While) utilizando o RAND() que faça
+um jogo de MEGA-SENA.
+
+dados:		-o usuário digitará quantos números ele quer na aposta!
+		-Os números vão de 01 a 60, mas se sair 00 nao tem problema
+
+OBS: Pode aparecer números repetidos!
+
+
+================= ESTRUTURAS CONDICIONAIS ==================================================
+12. Escreva um programa que leia as notas da P1 e da P2 e mostre na tela se o aluno deverá 
+fazer P3 ou se está aprovado.
+
+13. Escreva um programa que leia as notas P1 e P2. Caso uma das notas seja 0 (zero), leia a
+nota da P3 e calcule a média.
+
+14. Escreva um programa que leia a média e o número de faltas, e mostre se o aluno foi aprovado,
+reprovado por nota ou reprovado por nota e falta
 
