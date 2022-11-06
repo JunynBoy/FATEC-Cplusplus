@@ -1,0 +1,96 @@
+FACULDADE DE TECNOLOGIA DE BOTUCATU
+Não responda a esse email. Para entrar em contato com a unidade use os seguintes canais:
+- Telefone Comercial - 14-38143004 - E-Mail - f112acad@cps.sp.gov.br - Facebook https://www.facebook.com/ftcbotucatu
+
+VETOR MANUAL***************************************************************
+
+#include <stdio.h>
+#include <stdlib.h> //necessário para usar as funções malloc() e free()
+#include <conio.h>
+int main()
+{
+  float *v; //definindo o ponteiro v
+  int i, num_componentes;
+  
+  printf("Informe o numero de componentes do vetor\n");
+  scanf("%d", &num_componentes);
+  
+  /* ------------- Alocando dinamicamente o espaço necessário -------------
+  
+  1 - Calcular o número de bytes necessários
+  primeiramente multiplicamos o número de componentes do vetor pela
+  quantidade de bytes que é dada pelo comando sizeof,
+  portanto temos:
+  num_componentes * sizeof(float)
+  
+  2 - Reservar a quantidade de memória
+  usamos malloc para reservar essa quantidade de memória,
+  então temos:
+  malloc(num_componentes * sizeof(float))
+  
+  3 - Converter o ponteiro para o tipo de dados desejado
+  como a função malloc retorna um ponteiro do tipo void,
+  precisamos converter esse ponteiro para o tipo da nossa variável, no caso float,
+  por isso usamos o comando de conversão explicita:
+  (float *)
+  
+  4 - juntando tudo e atribuindo em v temos o comando abaixo: */
+  
+  v = (float *) malloc(num_componentes * sizeof(float));
+  
+  //Armazenando os dados em um vetor
+  for (i = 0; i < num_componentes; i++)
+  {
+    printf("\nDigite o valor para a posicao %d do vetor: ", i+1);
+    scanf("%f",&v[i]);
+  }
+  
+  // ------ Percorrendo o vetor e imprimindo os valores ----------
+  printf("\n*********** Valores do vetor dinamico ************\n\n");
+  
+  for (i = 0;i < num_componentes; i++)
+  {
+    printf("%.2f\n",v[i]);
+  }
+  
+  //liberando o espaço de memória alocado
+  free(v);
+  
+  return 0;
+}
+---------------------------------------------------------------------------------------------------
+
+MATRIZ ***************************************************************************
+
+#include <stdio.h>
+ 
+int main(){
+ 
+int m[3][3], l, c;
+ 
+for(l=0; l<3; l++){
+for(c=0; c<3; c++){
+printf("Digite um valor: ");
+scanf("%i", &m[l][c]);
+}
+}
+printf("\n\nMatriz lida\n\n");
+for(l=0; l<3; l++){
+for(c=0; c<3; c++){
+printf("[%i]", m[l][c]);
+}
+printf("\n");
+}
+return 0;
+}
+----------------------------------------------------------------------------------------------------
+
+* * * * * * * * DESAFIO * * * * * * * * * *
+
+Utilizando o código de matrizes acima, escreva um programa que você informe uma
+
+matriz 3x3 e calcule o determinante desta matriz (Regra de Sarrus).
+
+ 
+
+Para ajudar a lembrar -> https://www.todamateria.com.br/regra-de-sarrus/
