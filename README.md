@@ -1,6 +1,6 @@
 <h1>Repositório C++</h1>
 <br>
-<p>Aqui está concentrado todo o meu aprendizado de c++ que obtive com a Fatec e com os cursos que tenho feito</p>
+<h3>Aqui está concentrado todo o meu aprendizado de c++ que obtive com a Fatec e com os cursos que tenho feito</h3>
 <br>
 <h3>Sumário</h3>
 <ul>
