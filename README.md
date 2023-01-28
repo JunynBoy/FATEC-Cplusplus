@@ -10,6 +10,7 @@
     <li><b>Parte 4;</b> Comando RAND() - Biblioteca stdlib.h,</li>
     <li><b>Parte 5;</b> Comandos de decisão IF</li>
     <li><b>Parte 6;</b> Matrizes e Vetores</li>
+    <li><b>Parte 7;</b> Funções e comando Switch</li>
 </ul>
 <br>
-<p>Os demais arquivos de cursos ainda estão em andamento....</p>
+<h3>Elaborei uma documentação de todos os assuntos abordados, voce pode ter acesso pelo google drive [Documentação pdf](https://drive.google.com/drive/folders/1SPDapthNL9QltSghqop-_GgXi0d2xvrH?usp=share_link)</h3>
