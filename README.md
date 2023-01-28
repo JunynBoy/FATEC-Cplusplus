@@ -13,4 +13,5 @@
     <li><b>Parte 7;</b> Funções e comando Switch</li>
 </ul>
 <br>
-<h3>Elaborei uma documentação de todos os assuntos abordados, voce pode ter acesso pelo google drive [Documentação pdf](https://drive.google.com/drive/folders/1SPDapthNL9QltSghqop-_GgXi0d2xvrH?usp=share_link)</h3>
+<h3>Elaborei uma documentação de todos os assuntos abordados, voce pode ter acesso pelo <a href="https://drive.google.com/drive/folders/1SPDapthNL9QltSghqop-_GgXi0d2xvrH?usp=share_link">Google Drive</a> </h3>
+[Documentação pdf](https://drive.google.com/drive/folders/1SPDapthNL9QltSghqop-_GgXi0d2xvrH?usp=share_link)
